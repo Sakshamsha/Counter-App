@@ -1,6 +1,7 @@
 {
   "homepage": "https://Sakshamsha.github.io/Counter-App",
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
     "start": "vite"
